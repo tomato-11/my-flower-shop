@@ -21,6 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: black;
@@ -38,4 +39,110 @@ nav li{
 nav a{
     text-decoration: none
     color(srgb rgb(1, 1, 20) rgb(54, 1, 28) rgb(0, 0, 24));
+}
+
+/* header related styles */
+.header{
+    background-color: rgb(234, 230, 238);
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 1000px;
+}
+.banner .profile-picture{
+    width: 400px
+}
+.banner-greeting{
+    color: #272727;
+font-family: Lato;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+flex-direction: column;
+margin-bottom: 0;
+}
+.banner-title{
+    color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+/* main function styles */
+
+/* flower related styles */
+.flower-container{
+    display: flex;
+    padding: 30px 250px 250px 250px;
+    width: 1920px;
+    height: 486px
+    
+
+}
+.image-styles{
+    width: 200px;
+height: 250px;
+flex-shrink: 0;
+}
+#flower-1{
+    width: 200px;
+height: 250px;
+flex-shrink: 0;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+padding-left: 30px;
+margin-right: 10px;
+}
+#flower-2{
+    width: 200px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+margin-right: 10px;
+}
+#flower-3{
+    width: 200px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+.text{
+    text-align: center;
+}
+
+/* about styles */
+.about{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px;
+}
+.section-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    flex-shrink: 0;
 }
